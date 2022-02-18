@@ -113,7 +113,7 @@ class WL : AppCompatActivity() {
         webView.webViewClient = object : WebViewClient() {
             override fun onPageStarted(view: WebView?, url: String, favicon: Bitmap?) {
                 super.onPageStarted(view, url, favicon)
-                if (url.contains(pam("NDA0"))) {
+                if (url.contains(pam("Z2FwcHM9NDA0"))) {
                     val iqctw = Intent(this@WL,StartGameActivity::class.java)
                     startActivity(iqctw)
                     finish()
